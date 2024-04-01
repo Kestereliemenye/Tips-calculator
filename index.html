@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="main">
+    <h2>SIMDIS KITCHEN</h2>
+    <label id="bill" for="bill">Bill</label>
+    <input type="text" name="" id="bills">
+    <br>
+    <br>
+    <ul>
+        <li>"10% tip rate for satisfactory service."</li>
+        <br>
+        <li>"15% tip rate for good service."</li>
+        <br>
+        <li>"20% tip rate for excellent service."</li>
+        <br>
+    </ul>
+   <div class="buttons">
+    <button id="ten">10%</button>
+    <button id="fifteen">15%</button>
+    <button id="twenty">20%</button>
+   </div>
+    <br>
+    <br>
+    <label id="tips" for="Tip">Tip</label>
+    <input type="text" id="tip" readonly placeholder="Tip">
+    <br>
+    <br>
+    <button  id="open-popups">Tip Now</button>
+    <div class="popup" id="popup">
+        <img src="tick.png" alt="">
+        <h3>Payment Successful.</h3>
+        <button id="close-popup">ok</button>
+
+    </div>
+    <!-- <button>Calculate Tip</button> -->
+   </div>
+    <script src="functions.js"></script>
+</body>
+</html>
